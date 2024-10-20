@@ -2,8 +2,8 @@ const canvas = document.querySelector('canvas');
 const player1score = document.querySelector('#player1score')
 const player2score = document.querySelector('#player2score')
 const c = canvas.getContext('2d');
-canvas.width = 1425;
-canvas.height = 625;
+canvas.width = 1024;
+canvas.height = 576;
 
 const gravity = 0.7;
 
